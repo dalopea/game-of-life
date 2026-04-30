@@ -20,4 +20,4 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
       - name: Maven test
-        run: mvn test
+        run: mvn -X test 
